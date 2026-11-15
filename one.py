@@ -50,3 +50,9 @@ def play_game():  # one function that plays one full game
             print("Too high! Attempts left:", 5 - tries_used)  # hint: go lower
 
 
+    # We only reach here if the player never guessed it
+    print("Game Over! The number was", secret_number)  # show the secret number
+    print("Attempts used:", tries_used)  # show how many tries were used
+
+
+
