@@ -17,3 +17,9 @@ def play_game():  # one function that plays one full game
     # Keep asking until all 5 tries are used
     while tries_used < 5:  # repeat while tries are less than 5
         answer = input("Enter your guess (1-100): ")  # ask the player for a guess (text)
+
+        # If it's not a whole number, ask again (no try is lost)
+        if not answer.isdigit():  # check if the answer is not a whole number
+            print("Invalid input. Enter a whole number.")  # show error message
+            print("Attempts left:", 5 - tries_used)  # show tries left (no try lost)
+            continue  # go back and ask again
