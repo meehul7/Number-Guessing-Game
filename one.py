@@ -34,3 +34,19 @@ def play_game():  # one function that plays one full game
             continue  # go back and ask again
 
 
+        # The guess is fine, so it counts as one try
+        tries_used = tries_used + 1  # add 1 to tries used
+
+
+        if guess == secret_number:  # check if the guess is correct
+            if tries_used == 1:  # check if it was the first try
+                print("Congratulations! You guessed it in 1 attempt.")  # win message (1 try)
+            else:  # more than one try
+                print("Congratulations! You guessed it in", tries_used, "attempts.")  # win message
+            return  # stop the game, the player won
+        elif guess < secret_number:  # guess is smaller than the secret
+            print("Too low! Attempts left:", 5 - tries_used)  # hint: go higher
+        else:  # guess is bigger than the secret
+            print("Too high! Attempts left:", 5 - tries_used)  # hint: go lower
+
+
