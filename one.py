@@ -13,3 +13,7 @@ def play_game():  # one function that plays one full game
     secret_number = 42  # fix the number to 42 for testing
 
     tries_used = 0  # no tries used at the start
+
+    # Keep asking until all 5 tries are used
+    while tries_used < 5:  # repeat while tries are less than 5
+        answer = input("Enter your guess (1-100): ")  # ask the player for a guess (text)
