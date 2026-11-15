@@ -23,3 +23,5 @@ def play_game():  # one function that plays one full game
             print("Invalid input. Enter a whole number.")  # show error message
             print("Attempts left:", 5 - tries_used)  # show tries left (no try lost)
             continue  # go back and ask again
+
+        guess = int(answer)  # change the text into a number
