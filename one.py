@@ -56,3 +56,12 @@ def play_game():  # one function that plays one full game
 
 
 
+# Start the game and ask if the player wants to go again
+while True:  # keep running until we say stop
+    play_game()  # play one game
+    play_again = input("Play again? (y/n): ")  # ask if the player wants another game
+    if play_again.lower() != "y":  # if the answer is not "y" (any case)
+        print("Thanks for playing!")  # goodbye message
+        break  # stop the program
+
+
