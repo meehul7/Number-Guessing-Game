@@ -25,3 +25,12 @@ def play_game():  # one function that plays one full game
             continue  # go back and ask again
 
         guess = int(answer)  # change the text into a number
+
+
+        # If it's outside 1-100, ask again (no try is lost)
+        if guess < 1 or guess > 100:  # check if the number is out of range
+            print("Out of range. Enter a number between 1 and 100.")  # show error message
+            print("Attempts left:", 5 - tries_used)  # show tries left (no try lost)
+            continue  # go back and ask again
+
+
