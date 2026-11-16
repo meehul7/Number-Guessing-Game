@@ -3,6 +3,7 @@
 A console-based guessing game written in Python 3. The computer picks a secret number between 1 and 100, and the player has 5 attempts to guess it. After each guess, the game says "Too high" or "Too low". At the end, it asks if the player wants to play again.
 
 **PS No.:** 95
+
 **University:** Rungta International Skills University 
 
 **School:** School Of Computer Science And Engineering
