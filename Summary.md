@@ -147,7 +147,7 @@ Thanks for playing!
 ## 6. How to Run
 
 ```bash
-python number_guessing_game.py
+python one.py
 ```
 
 For testing, the secret number is fixed to 42. To play with a random number, remove the line `secret_number = 42` in the code.
@@ -156,7 +156,7 @@ For testing, the secret number is fixed to 42. To play with a random number, rem
 
 ```
 Python-Projects/
-├── number_guessing_game.py   # main program
+├── one.py   # main program
 ├── images/                   # screenshots of the 4 test cases
 ├── README.md                 # project description
 └── Summary.md                # this summary
