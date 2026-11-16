@@ -4,9 +4,13 @@ A console-based guessing game written in Python 3. The computer picks a secret n
 
 **PS No.:** 95
 **University:** Rungta International Skills University 
-**School:** School Of Computer Science And Engineering 
+
+**School:** School Of Computer Science And Engineering
+
 **Course:** B.Tech CSE Core
+
 **Language:** Python 3
+
 **Concepts:** Loops, Conditions, Functions, Random
 
 ---
