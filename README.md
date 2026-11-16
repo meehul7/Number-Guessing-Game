@@ -78,7 +78,7 @@ The main program runs `play_game()` inside a `while True` loop, so the game can 
 3. Run the program:
 
 ```bash
-python number_guessing_game.py
+python one.py
 ```
 
 4. Type your guess when the program asks for it.
@@ -125,6 +125,6 @@ Number-Guessing-Game/
 
 ## Author
 
-- Name: (write your name here)
-- ERP: (write your ERP number here)
-- Section: (write your section here)
+- Name: Mehul
+- ERP: RU-26-01503
+- Section: M
