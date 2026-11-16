@@ -6,7 +6,7 @@
 
 **Concepts:** Loops, Conditions, Functions, Random
 
-**Code file:** `number_guessing_game.py`
+**Code file:** `one.py`
 
 ---
 
@@ -157,7 +157,6 @@ For testing, the secret number is fixed to 42. To play with a random number, rem
 ```
 Python-Projects/
 ├── one.py   # main program
-├── images/                   # screenshots of the 4 test cases
 ├── README.md                 # project description
 └── Summary.md                # this summary
 ```
