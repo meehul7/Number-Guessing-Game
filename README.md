@@ -122,7 +122,7 @@ Thanks for playing!
 
 ```
 Number-Guessing-Game/
-├── number_guessing_game.py   # main program
+├── one.py   # main program
 ├── README.md                 # project description
 └── Summary.md                # project summary
 ```
