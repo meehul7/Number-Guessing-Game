@@ -123,7 +123,6 @@ Thanks for playing!
 ```
 Number-Guessing-Game/
 ├── number_guessing_game.py   # main program
-├── images/                   # screenshots of the test cases
 ├── README.md                 # project description
 └── Summary.md                # project summary
 ```
