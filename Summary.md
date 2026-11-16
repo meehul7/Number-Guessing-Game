@@ -37,7 +37,8 @@ This project is a console-based guessing game. The computer picks a secret numbe
 
 The guess matched the secret number on the first try, so the game ended with the win message. It then asked `Play again? (y/n)`, and `n` stopped the program.
 
-<img width="1280" height="988" alt="Test Case 1" src="https://github.com/user-attachments/assets/84c1e7b6-0f22-4b64-bf9b-8adc40837af0" />
+<img width="1826" height="930" alt="Test Case 1" src="https://github.com/user-attachments/assets/107cd8f8-8437-4f04-a956-bf701770dbde" />
+
 
 
 Output as text:
@@ -57,7 +58,8 @@ Thanks for playing!
 
 Both limits of the range (1 and 100) were accepted as valid guesses. 1 is lower than 42 and 100 is higher than 42, so the hints were correct and the attempts left went down by one each time.
 
-<img width="1028" height="808" alt="test case 2" src="https://github.com/user-attachments/assets/a5d37bbe-0857-4501-9dca-e99732b30000" />
+<img width="1827" height="901" alt="Test Case 2" src="https://github.com/user-attachments/assets/2028c8d5-6e20-4e90-a14f-a7d9ad497bdd" />
+
 
 
 Output as text:
@@ -77,7 +79,8 @@ Too high! Attempts left: 3
 
 Both wrong inputs were rejected with the correct messages. The attempts left stayed at 5 each time, so no attempt was lost, and the program asked again without crashing.
 
-<img width="1280" height="1103" alt="test case 3" src="https://github.com/user-attachments/assets/1ca98f2c-4ae5-4823-8a9b-788b0f4685af" />
+<img width="1822" height="797" alt="Test Case 3" src="https://github.com/user-attachments/assets/74cc9365-38fb-42d0-823e-baad816950ea" />
+
 
 
 Output as text:
@@ -99,7 +102,8 @@ Attempts left: 5
 
 All 5 guesses were wrong, so the attempts left went from 4 down to 0. After the last attempt, the game showed `Game Over!` with the secret number and the attempts used.
 
-<img width="1020" height="1032" alt="test case 4" src="https://github.com/user-attachments/assets/6cf61456-cfbe-4833-bc79-6bf746e08703" />
+<img width="1831" height="901" alt="Test Case 4" src="https://github.com/user-attachments/assets/41c2b7e9-c24f-4a11-9ef4-028fe686fa73" />
+
 
 
 Output as text:
